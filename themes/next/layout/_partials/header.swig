@@ -58,9 +58,11 @@
         </li>
       {% endif %}
       
-      {% if theme.high_high.enable %}
-        {% include '../_custom/high.swig' %}
-      {% endif %}
+      /* 
+	   *  {% if theme.high_high.enable %}
+	   *  {% include '../_custom/high.swig' %}
+       *  {% endif %}
+	   */
     </ul>
   {% endif %}
 
